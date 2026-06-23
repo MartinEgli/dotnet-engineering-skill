@@ -1,0 +1,8 @@
+interface:
+  display_name: ".NET Engineering"
+  short_description: "C#, ASP.NET Core, EF Core, tests, performance"
+  default_prompt: "Use $dotnet-engineering to review this .NET system for ASP.NET Core, EF Core, testing, performance, modernization, Azure integration, and maintainability."
+
+policy:
+  allow_implicit_invocation: true
+
