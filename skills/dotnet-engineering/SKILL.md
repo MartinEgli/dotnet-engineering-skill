@@ -61,6 +61,9 @@ Do not use for final evidence acceptance or productive-use governance. Use
   configuration keys, commands, and error strings exactly.
 - Separate domain/application logic from framework, persistence, transport, and
   hosting concerns.
+- Keep findings, diagrams, code recommendations, package guidance, and handoffs
+  traceable to supplied code, project files, tool results, sources, or clearly
+  marked assumptions.
 - Prefer idiomatic .NET patterns: dependency injection, async where appropriate,
   options pattern, structured logging, cancellation tokens, health checks, and
   explicit configuration.
@@ -140,6 +143,8 @@ sequence, component, Clean Architecture, or dependency notation. Read
 
 ## Evidence Handling
 
+Use `references/evidence-traceability.md`.
+
 - Evidence: supplied code, project file, package list, configuration, log,
   benchmark, test result, API contract, or explicit user fact.
 - Inference: engineering conclusion derived from evidence.
@@ -155,6 +160,7 @@ another format.
 
 - Runtime, project type, and target framework are explicit or marked as gaps.
 - Recommendations are idiomatic for .NET and tied to quality attributes.
+- Key engineering claims include source trace or are marked as assumptions.
 - Domain/application logic is not coupled unnecessarily to infrastructure.
 - Tests and observability are addressed when changing behavior.
 - Azure platform concerns are handed to `azure-architecture`.
@@ -176,4 +182,3 @@ another format.
 - Use tables for findings and options when comparison helps.
 - Use Mermaid for quick diagrams and PlantUML/C4-style notation when persistent
   architecture-as-code is useful.
-
