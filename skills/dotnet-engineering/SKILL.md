@@ -151,6 +151,9 @@ Use `references/evidence-traceability.md`.
 - Assumption: useful but unverified project hypothesis.
 - Gap: missing input that can change the engineering decision.
 
+Include an Evidence Receipt for substantial findings, decisions, diagrams, or
+recommendations.
+
 ## Output Contracts
 
 Use `assets/templates/dotnet-engineering-output.md` unless user asks for
