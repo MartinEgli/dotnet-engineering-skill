@@ -1,8 +1,9 @@
 interface:
   display_name: ".NET Engineering"
   short_description: "C#, ASP.NET Core, EF Core, tests, performance"
+  icon_small: "./assets/dotnet-engineering-small.svg"
+  icon_large: "./assets/dotnet-engineering.svg"
   default_prompt: "Use $dotnet-engineering to review this .NET system for ASP.NET Core, EF Core, testing, performance, modernization, Azure integration, and maintainability."
 
 policy:
   allow_implicit_invocation: true
-
