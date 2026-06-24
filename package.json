@@ -1,6 +1,6 @@
 {
   "name": "dotnet-engineering-skill",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "description": ".NET engineering skill for C#, ASP.NET Core, EF Core, testing, performance, modernization, Azure integration, and diagrams.",
   "license": "MIT",
