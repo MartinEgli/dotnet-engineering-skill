@@ -16,3 +16,10 @@ software diagrams.
 - `/dotnet azure`
 - `/dotnet diagram`
 
+
+## Continuous Improvement
+
+This skill supports an explicit feedback loop. Use /dotnet-engineering feedback to
+capture lessons and /dotnet-engineering improve to propose changes. Improvements must
+remain traceable, validated, committed on a feature branch, and pushed before
+they become part of the released skill behavior.
